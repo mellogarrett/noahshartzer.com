@@ -1,0 +1,90 @@
+.container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: linear-gradient(#7fccf0, #7c6bca);
+}
+
+.troll-container {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  /* position: absolute; */
+  /* top: 50%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  width: 20%;
+  margin: auto;
+}
+
+.troll {
+  width: 380px;
+}
+
+@keyframes troll-dance {
+  0% {
+    transform: scaleX(1);
+  }
+  49.999% {
+    transform: scaleX(1);
+  }
+  50% {
+    transform: scaleX(-1);
+  }
+  99.999% {
+    transform: scaleX(-1);
+  }
+}
+
+.animate-troll {
+  animation: 2s infinite troll-dance;
+}
+
+@keyframes who-message-appear {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.animate-who-message {
+  align-self: flex-start;
+  animation: 10s infinite who-message-appear;
+}
+
+@keyframes sad-message-appear {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  55% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.animate-sad-message {
+  align-self: flex-start;
+  animation: 10s infinite sad-message-appear;
+}
