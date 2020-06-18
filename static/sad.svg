@@ -44,7 +44,7 @@
       <path d="M92.886,186 C142.591,186 182.886,145.706 182.886,96 C182.886,46.294 142.591,6 92.886,6 C43.18,6 2.886,46.294 2.886,96 C2.886,145.706 43.18,186 92.886,186 z" fill="#FFFFFF"/>
     </g>
     <text transform="matrix(1, 0, 0, 1, 92.886, 96)">
-      <tspan x="-45.356" y="11.5" font-family="HelveticaNeue-Bold" font-size="34" fill="#5C4BA7">Sad...</tspan>
+      <tspan x="-38.271" y="16" font-family="Noteworthy-Bold" font-size="34" fill="#5C4BA7">sad...</tspan>
     </text>
   </g>
 </svg>

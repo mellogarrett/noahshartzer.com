@@ -44,7 +44,7 @@
       <path d="M152.886,186 C103.18,186 62.886,145.706 62.886,96 C62.886,46.294 103.18,6 152.886,6 C202.591,6 242.886,46.294 242.886,96 C242.886,145.706 202.591,186 152.886,186 z" fill="#FFFFFF"/>
     </g>
     <text transform="matrix(1, 0, 0, 1, 152.886, 96)">
-      <tspan x="-56.049" y="9.5" font-family="HelveticaNeue-Bold" font-size="34" fill="#50A9D3">WHO!?</tspan>
+      <tspan x="-50.201" y="7.5" font-family="MarkerFelt-Wide" font-size="34" fill="#50A9D3">WHO!?</tspan>
     </text>
   </g>
 </svg>
