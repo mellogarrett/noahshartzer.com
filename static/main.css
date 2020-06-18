@@ -12,7 +12,7 @@
   margin: 20px 0;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
   .troll-container {
     width: 20%;
     margin: auto;
@@ -23,7 +23,7 @@
   width: 380px;
 }
 
-@media (min-width: 600px) {
+@media (max-width: 600px) {
   .troll {
     width: 100%;
   }
